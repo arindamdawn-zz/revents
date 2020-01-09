@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import App from "./app/layout/App";
+import "antd/dist/antd.min.css";
+
 const rootElement = document.getElementById("root");
 
 const render = () => {
